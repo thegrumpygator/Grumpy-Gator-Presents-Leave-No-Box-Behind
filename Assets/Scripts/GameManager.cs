@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour {
 		
 		// reduce the pitch of the background music, if it is set 
 		if (musicAudioSource)
-			musicAudioSource.pitch = 0.5f; // slow down the music
+			musicAudioSource.pitch = 0.75f; // slow down the music
 	}
 
 	// public function that can be called to update the score or time

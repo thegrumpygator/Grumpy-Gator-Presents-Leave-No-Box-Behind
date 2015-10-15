@@ -21,6 +21,9 @@ public class Shooter : MonoBehaviour {
 				// Instantiante projectile at the camera + 1 meter forward with camera rotation
 				GameObject newProjectile = Instantiate(projectile, transform.position + transform.forward, transform.rotation) as GameObject;
 
+                ///TODO: BLF - decrement ammo when firing gun.
+                /// 
+
 				// if the projectile does not have a rigidbody component, add one
 				if (!newProjectile.GetComponent<Rigidbody>()) 
 				{
